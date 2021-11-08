@@ -18,18 +18,21 @@ const ContactState = (props) => {
       {
         id: 1,
         name: 'Ranjan Kumar Mandal',
+        email: 'ranjan@gmail.com',
         phone: '111-222-333-4',
         type: 'personal',
       },
       {
         id: 2,
         name: 'brad T',
+        email: 'brad@gmail.com',
         phone: '444-333-666-2',
         type: 'personal',
       },
       {
         id: 3,
         name: 'Shree Satya',
+        email: 'satya@gmail.com',
         phone: '435-231-165-3',
         type: 'professional',
       },
