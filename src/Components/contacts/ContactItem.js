@@ -4,12 +4,13 @@ import contactContext from '../../context/contact/contactContext';
 
 const ContactItem = ({ contact }) => {
   const contactContext1 = useContext(contactContext);
-  const { deleteContact, setCurrent } = contactContext1;
+  const { deleteContact, setCurrent, clearCurrent } = contactContext1;
 
   const { id, name, email, phone, type } = contact;
 
   const onDelete = () => {
     deleteContact(id);
+    clearCurrent();
   };
 
   return (
